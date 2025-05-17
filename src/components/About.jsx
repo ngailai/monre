@@ -8,7 +8,8 @@ import {FcSportsMode} from 'react-icons/fc';
 
 // Import images (adjust paths based on your project structure)
 // import bgg from './assets/hero/hr_2.jpg';
-import bgg from '/assets/hero/hr_2.jpg';
+// import bgg from './assets/hero/hr_2.jpg'
+import bgg from '../assets/gallery/hero5.jpg';
 
 // If using react-router-dom for navigation
 import {Link} from 'react-router-dom';
@@ -242,7 +243,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-[url('/dr7.jpg')] bg-cover bg-no-repeat bg-center">
+            <section className=' bg-cover bg-no-repeat bg-center'>
                 <div className='relative z-20 py-24'>
                     <div className='lg:flex gap-12 max-w-[1320px] px-6 mx-auto mt-32'>
                         <div className='lg:w-1/2'>
